@@ -514,6 +514,7 @@ int main()
 	map<string, FibNode<int>*> hashtable;				// Hashtable initialize
 	map<string, FibNode<int>*>* pointer = &hashtable;	// Hashtable pointer
 	string inputfile, outputfile, command;
+	cout<<"Please enter your \"input_file_name output_file_name\""<<endl;
 	getline(cin, command);				// get command
 	istringstream iss1(command);
 	iss1 >> inputfile >> outputfile;	// split command
