@@ -11,10 +11,10 @@
 #include <sstream>
 #include <fstream>
 #include <vector>
-#include <math.h>
+//#include <math.h>
 #include <algorithm>
 #include <string>
-#include <io.h>
+//#include <io.h>
 #include <map>
 using namespace std;
 
@@ -529,7 +529,7 @@ int main()
 		istringstream iss(line);
 		string a, b;
 		iss >> a >> b;
-		if (a == string("stop"))		// input line with the word “stop”, close infile, terminate program 
+		if (a == string("stop"))		// input line with the word Â“stopÂ”, close infile, terminate program 
 		{
 			infile.close();
 			return 0;
