@@ -54,4 +54,5 @@ character after the commas.
 Following is the output file  for the above input file. 
 
 saturday,sunday,monday 
+
 saturday,sunday,reading,friday,monday 
